@@ -2,9 +2,9 @@
 class Anagram
   attr_accessor :word 
   
-def initialize(word)
+  def initialize(word)
   @word = word
-end
+  end
 
   def match(words)
      anagram = []
@@ -12,6 +12,6 @@ end
          anagram << some_word}
      end
      anagram
-end
+  end
 
 end
