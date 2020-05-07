@@ -8,9 +8,8 @@ end
 
 def match(words)
      anagram = []
-     words.each do |wordy_words|
-       if wordy_words.split("").sort == word.split("").sort
-         anagram << wordy_words
+     words.each {|some_word| if some_word.split("").sort == word.split("").sort
+         anagram << some_word}
        end
      end
      anagram
